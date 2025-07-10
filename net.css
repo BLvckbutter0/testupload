@@ -1,0 +1,25 @@
+/* Add to style.css */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 18px; /* space between icons and image */
+}
+
+.navbar-right i {
+    font-size: 1.2em;
+    color: #fff; /* or your preferred color */
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.navbar-right i:hover {
+    color: #e50914; /* Netflix red on hover */
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    object-fit: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+/* ...existing code... */
+.btn-more-info {
+    /* Remove background-color and color so it inherits from .btn */
+}
+
+.btn-more-info:hover {
+    background-color: rgba(255, 255, 255, 0.75); /* Match .btn-play:hover */
+}
+/* ...existing code... */
